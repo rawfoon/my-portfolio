@@ -9,44 +9,39 @@ const NavBar = () => {
     {
       id: 1,
       link: "home",
-      route: 'header'
+      route: '/'
     },
     {
       id: 2,
       link: "about",
-      route: 'about'
     },
-   
     {
       id: 3,
-      link: "experience",
-      route: 'experience'
-    }, 
+      link: "portfolio",
+    },
     {
-        id: 4,
-        link: "projects",
-        route: 'projects'
-      },
+      id: 4,
+      link: "experience",
+    },
     {
       id: 5,
       link: "contact",
-      route: 'contact'
     },
   ];
 
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
       <div>
-        <h1 className="text-5xl font-signature ml-2">MG Rawfoon</h1>
+        <h1 className="text-5xl font-signature ml-2">Yash</h1>
       </div>
 
       <ul className="hidden md:flex">
-        {links.map(({ id, link, route }) => (
+        {links.map(({ id, link , route}) => (
           <li
             key={id}
             className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
           >
-            <Link to={route} smooth duration={500}>
+            <Link to={`${route ? route : link}`} smooth duration={500}>
               {link}
             </Link>
           </li>

@@ -13,7 +13,7 @@ const Project = ({project}) => {
               <p className="my-4">{title}</p>
              <div className='flex justify-center '>
              <a href={url} target='_blank' className='my-7 mx-1  py-2 px-8 bg-blue-500 rounded'>Live</a>
-              <Link to={`/project/${title}`} className='my-7  py-2 px-8 bg-blue-500 rounded' >Explore</Link>
+              <Link to={`/project/${id}`} className='my-7  py-2 px-8 bg-blue-500 rounded' >Explore</Link>
              </div>
             </div>
     );

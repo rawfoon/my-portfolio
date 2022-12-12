@@ -5,7 +5,7 @@ import phonoShopia1 from '../../assets/Projects/PhonoShopia/PhonoShopia1.png'
 import phonoShopia2 from '../../assets/Projects/PhonoShopia/PhonoShopia2.png'
 import phonoShopia3 from '../../assets/Projects/PhonoShopia/PhonoShopia3.png'
 
-const Project1 = () => {
+const Project2 = () => {
 
     const features = [
             "Buyer can buy and report a product",
@@ -59,4 +59,4 @@ const Project1 = () => {
     );
 };
 
-export default Project1;
+export default Project2;
