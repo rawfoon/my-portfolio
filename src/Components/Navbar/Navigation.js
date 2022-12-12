@@ -22,9 +22,9 @@ const Navigation = () => {
             <li
              className="px-4 cursor-pointer capitalize font-medium text-gray-300 hover:scale-105 duration-200"
             > <Link to='/about'>About</Link></li>
-            <li
+            {/* <li
              className="px-4 cursor-pointer capitalize font-medium text-gray-300 hover:scale-105 duration-200"
-            > <a href='#experience'>exp</a></li>
+            > <a href='#experience'>exp</a></li> */}
       </ul>
             {/* this is Navigation
             <Link to='/'>Home</Link>
